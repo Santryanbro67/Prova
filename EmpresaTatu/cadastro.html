@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="cnav">
+        <h1>Cadastro</h1>
+        <form action="contato" method="post">
+            <label for="name" class="labelC">Nome Completo:</label><br>
+            <input type="text" class="inputN" name="name" placeholder="Nome Completo">
+            <br>
+
+            <label for="rg" title="rg" class="labelC">RG:</label><br>
+            <input type="text" name="number" class="inputRg" placeholder="00.000.000-00">
+            <br>
+
+            <label for="pai" title="pai" class="labelC">Pai:</label><br>
+            <input type="text" name="name" id="inputPai" placeholder="Nome do Pai">
+            <br>
+
+            Escolaridade: <br><select name="escolaridade">
+                <option value="escolaridade"> Ensino Fundamental Completo
+                <option value="escolaridade"> Ensino Fundamental Incompleto
+                <option value="escolaridade"> Ensino Médio Completo
+                <option value="escolaridade"> Ensino Médio Incompleto
+                <option value="escolaridade"> Ensino Superior Completo
+                <option value="escolaridade"> Ensino Superior Incompleto
+            </select><br>
+            
+            <label for="telefone" title="telefone" class="labelC">Telefone:</label><br>
+            <input type="tel" name="number" class="inputTel" placeholder="(00) 00000-0000">
+            <br>
+
+            <label for="email" title="email" class="labelC">Email:</label><br>
+            <input type="email" name="email" class="inputEmail" placeholder="exemplo@email.com">
+            <br>
+            
+            <br><br>
+
+            <input type="submit" value="Cadastrar" class="inputC">
+            <input type="submit" value="Limpar Campos" class="inputC">
+        </form>
+    </nav>
+</body>
+
+</html>
